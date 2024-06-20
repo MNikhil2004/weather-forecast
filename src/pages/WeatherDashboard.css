@@ -1,0 +1,185 @@
+/* src/components/WeatherDashboard.css */
+
+.container {
+    background-color: #f0f0f0; /* Example light background color */
+    color: #333; /* Dark text color for light backgrounds */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    /* background-image: url('../assets/sunset2.jpg'); */
+  }
+  
+  /* Adjust as needed for other components or specific elements */
+  .error {
+    color: red; /* Example color for error messages */
+  }
+  
+  .container.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color in dark mode */
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      font-size: 1rem;
+    }
+  }
+
+  /* src/pages/WeatherDashboard.css */
+
+.login, .signup {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login h3, .signup h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .login input, .signup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login button, .signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login button:hover, .signup button:hover {
+    background-color: #0056b3;
+  }
+  /* src/pages/WeatherDashboard.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+  }
+  
+  .buttons-container {
+    margin-bottom: 20px;
+  }
+  
+  .weather-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-data {
+    width: 100%;
+  }
+  
+  .current-weather {
+    color: #fff;
+    background: #5372F0;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .current-weather h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  
+  .current-weather h6 {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .current-weather .icon {
+    text-align: center;
+  }
+  
+  .current-weather .icon img {
+    max-width: 120px;
+    height: 120px;
+    width: 100%;
+  }
+  
+  .current-weather .icon h6 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .days-forecast {
+    margin-top: 20px;
+    color: #222;
+  }
+  
+  .days-forecast h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .weather-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.75);
+    padding: 10px 0 20px;
+  }
+  
+  .card h3 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .card img {
+    max-width: 70px;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .card h6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
